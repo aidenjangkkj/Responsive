@@ -1,0 +1,358 @@
+@media (max-width: 768px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* 헤더 */
+  .nav-item {
+    font-size: 17px;
+    color: black;
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-link:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar-toggler-icon {
+    border: none;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .navbar {
+    color: black;
+    background-color: white;
+  }
+  .navbar-light .navbar-brand {
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 1rem !important;
+  }
+
+  /* 섹션 1 */
+  #sub_title {
+    margin-top: 10rem;
+    transition: all 0.5s;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 0;
+  }
+  #list-slide {
+    width: fit-content;
+    margin: 0;
+  }
+  .mySwiper{
+    width: fit-content;
+  }
+  .swiper-slide {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  #arrow {
+    width: 20px;
+    height: 30px;
+    top: 95%;
+  }
+  .circle {
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+  .circle2 {
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+  /* 섹션 2 */
+  #title {
+    font-weight: 900;
+    font-size: 25px;
+  }
+
+  #explanation {
+    width: 100%; /* 하늘색 영역의 넓이를 100%로 설정 */
+    font-size: 18px;
+    line-height: 0;
+    margin: 0;
+  }
+
+  /* 섹션 3 */
+  .t2 {
+    font-size: 22px;
+  }
+  .t3 {
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 10rem;
+    height: 3rem;
+    font-size: 15px;
+    margin-top: 1rem;
+  }
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    background: none;
+  }
+  .swiper-pagination-bullet-active {
+    color: white;
+    background: white;
+  }
+  .subtext {
+    font-size: 20px;
+  }
+  /* 섹션 4 */
+  .container.sec4 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #sec4-h1 {
+    font-size: 22px;
+    margin-top: 3rem;
+  }
+  .text-section h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .text-section h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .text-section ul {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+  }
+  .col-md-6.bg-col img {
+    padding: 2rem;
+  }
+  /* 섹션 5 */
+  .container.sec5 {
+    margin-top: 5rem;
+    margin-bottom: 0 !important;
+  }
+
+  .text-section {
+    padding: 1rem; /* 모바일 화면에서 텍스트 섹션의 패딩 추가 */
+  }
+  #sec5-title {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #sec5-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #detail {
+    margin-top: 1vw;
+    font-size: 15px;
+    font-weight: 545;
+    text-align: center;
+  }
+  .sec6-store-box {
+    margin-top: 3.5rem;
+  }
+  .sec5-app-des {
+    font-size: 15px;
+    font-weight: 545;
+  }
+  .google-btn {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .appstore-btn {
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .sec5-icon-box{
+    padding: 1rem 1rem !important;
+  }
+  .sec5-icon-box img{
+    width: auto !important;
+  }
+  .col-md-4 .col-4{
+    padding: .5rem .5rem !important;
+  }
+  #right {
+    height: 20rem;
+    margin-bottom: 5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  #background-image-right {
+    width: 90%;
+    height: 97%;
+    padding-top: 2vw;
+  }
+
+  #app-image {
+    width: 80%;
+    height: 90%;
+  }
+
+  /* 섹션 6 */
+  #certification-image1 {
+    margin: 0;
+  }
+  #certification-image2 {
+    margin: 0;
+  }
+  .sec6-p {
+    font-size: 15px !important;
+  }
+  .container.sec6 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .sec6-box {
+    margin-bottom: 2rem;
+  }
+  .sec6-title {
+    font-size: 22px;
+  }
+  .sec6-subtitle {
+    font-size: 18px !important;
+  }
+  .certification-box-1,
+  .certification-box-2 {
+    text-align: center;
+  }
+  .certification-box-1 {
+    margin-left: 0;
+  }
+  /* BookSection */
+  .booksec {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .booksec-col {
+    width: 50%;
+  }
+  .booksec-box {
+    border-radius: 25px;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+  }
+  .booksec-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .booksec-sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.89px;
+    text-align: center;
+  }
+  .booksec-des-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .booksec-des-title2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .booksec-box.last {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* 섹션 7 */
+  .container.sec7 {
+    --bs-gutter-x: 1rem !important;
+  }
+  .row.g-4.mb-5.mx-1 {
+    --bs-gutter-y: 0 !important;
+  }
+  .img-fluid.mt-5 {
+    margin-top: 1rem !important;
+  }
+  .box7.p-3 p {
+    margin-top: 1rem !important;
+  }
+  .mb-4.fw-bold {
+    margin-top: 5rem !important;
+  }
+  .row.g-4.mb-5.mx-1 {
+    margin-right: 0.1rem !important;
+    margin-left: 0.1rem !important;
+  }
+  .box7 {
+    /* 박스 너비를 100%로 설정하여 한 개씩 배치 */
+    max-width: none;
+    margin-bottom: 20px;
+
+  }
+  .sec7-title {
+    font-size: 28px;
+  }
+  .sec7-sub-title {
+    font-size: 18px;
+  }
+  .membership7 {
+    font-size: 36px;
+  }
+  .sec7 p {
+    font-size: 16px !important;
+  }
+  .sec7 img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 0;
+    padding-left: 1rem;
+  }
+  .footer.p {
+    text-align: left !important;
+    font-size: 14px !important;
+  }
+  .footer.p strong {
+    font-size: 16px;
+  }
+  .footer-top {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+  .footer-bottom {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .sns-icon-box {
+    justify-content: start !important;
+    margin-bottom: 1rem;
+  }
+  .sns-icon-box img {
+    width: 3rem;
+    margin-right: 1rem;
+    margin-left: 0;
+  }
+}

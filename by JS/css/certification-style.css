@@ -1,0 +1,225 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Inter","Pretendard";
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  word-break: keep-all;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+}
+.nav-link.hover-effect:hover {
+  color: #2971ea !important; /* 원하는 텍스트 색상으로 변경 */
+  transition: color 0.3s !important; /* 애니메이션 효과 추가 */
+}
+.navbar-light .navbar-brand {
+  color: black;
+  font-weight: 700;
+  margin-left: 18rem;
+  font-size: 30px;
+}
+.navbar-light .navbar-brand:focus {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar-light .navbar-brand:hover {
+  color: black;
+}
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  margin-right: 1vw;
+}
+
+.nav-link:visited {
+  text-decoration: none;
+  color: black;
+}
+.nav-link {
+  color: black;
+}
+.navbar-nav {
+  margin-right: 15rem;
+}
+.nav-item.navbar2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  width: 18.2%;
+}
+.nav-item.navbar2:hover {
+  background: #2189ff !important;
+  transition: background-color 0.3s;
+}
+.nav-link.navbar2 {
+  color: white;
+}
+.nav-link.navbar2:hover {
+  color: white;
+}
+.navbar-collapse.navbar2 {
+  margin: 0;
+}
+.title {
+
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72.61px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.subtitle {
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.subtitle2 {
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.63px;
+  text-align: left;
+}
+.sec1-bg {
+  background-image: url(../img/class-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec1-img {
+  height: 70%;
+}
+.sugang-btn {
+  background: linear-gradient(to left, white 50%, #2189ff 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+  font-size: 24px;
+}
+.sugang-btn:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  border: 1px solid #2189ff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  background-position: left;
+}
+table .list-style-group {
+  list-style-type: none !important;
+  padding-left: 1rem;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+table .list-style-group li:before {
+  content: "-" !important;
+  position: absolute !important;
+  margin-left: -15px !important;
+  font-size: 24px;
+}
+.list-unstyled {
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+}
+th {
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  padding: 3rem !important;
+}
+td {
+  padding: 3rem !important;
+}
+.warn-sec li {
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37.2px;
+  text-align: left;
+}
+
+.sec2-title {
+
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72.61px;
+}
+.sec2-sub {
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.73px;
+  text-align: center;
+}
+.sec2-sub-2{
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2189ff;
+}
+.sec2-p {
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: justified;
+}
+.warn-sec-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.73px;
+  text-align: left;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+.footer.p{
+  font-size: 32px;
+}
+.footer-top{
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+.footer-bottom{
+  margin-top: 5rem !important;
+  margin-bottom: 10rem !important;
+  font-family: "Fjord One", "Pretendard";
+}
+.footer-top img:hover{
+  cursor: pointer;
+}
+.sns-icon-box img{
+  margin-left: 2rem;
+}
+/* 모집안내 */
+.table th,
+.table td {
+  border-color: black;
+  border-top: 1px solid black;
+}

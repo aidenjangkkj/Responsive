@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    .container {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    .navbar-light .navbar-brand{
+      font-size: 20px;
+      margin-left: 1rem;
+    }
+    .nav-item .nav-link{
+      font-size: 17px;
+    }
+    .nav-item.navbar2 {
+      font-size: 18px;
+      width: auto;
+    }
+    .col-md-12.p-4.bottom {
+      margin-bottom: 2rem;
+    }
+    #navbar2-ul {
+      flex-direction: row !important;
+    }
+    .nav-item.navbar2 {
+      width: 35%;
+      padding: 1rem !important;
+      height: auto;
+    }
+    .navbar-toggler {
+      margin: 0 !important;
+    }
+    header {
+      text-align: center;
+    }
+    .section p,h4,h1,.title,.subtitle,.sec1-p{
+      text-align: center;
+    }
+    .footer.p{
+      text-align: left;
+      font-size: 15px;
+    }
+    h4{
+      font-weight: bold;
+      font-size: 24px;
+    }
+    p{
+      font-size: 16px;
+    }
+    .sec2-title-p, .sec3-title-p, .sec4-title-p{
+      font-size: 22px;
+    }
+    .col-md-12 p{
+      font-size: 18px !important;
+    }
+    .footer{
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
